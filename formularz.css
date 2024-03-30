@@ -1,0 +1,134 @@
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+input{
+    border: 1px solid #ced4da;
+    background: transparent;
+    line-height: 2;
+}
+
+.kontener{
+    border: 15px;
+    border-radius: 17px;
+    margin-top: 3%;
+    width: 55%;
+    margin: auto;
+    box-shadow: 0px 0px 62px rgba(0, 0, 0, 0.25);
+    font-size: 20px;
+}
+
+.btn{
+border: none;
+display: block;
+cursor: pointer;
+margin-left: 42%;
+text-transform: uppercase;
+background: #ffffff0d;
+ overflow: hidden;
+ position: relative;
+ color: #fff;
+ font-weight: 700;
+ padding: 17px 50px;
+ font-size: 20px;
+ box-shadow: 0 5px 15px #00000033;
+ border-radius: 25px;
+ position: relative;
+
+}
+.btn samp{
+margin-top: 100px;
+position: relative;
+z-index: 1;
+}
+.btn::after{
+content: "";
+position: absolute;
+left: 0;
+top: 0;
+height: 490%;
+width: 140%;
+background: #6493EF;
+-webkit-transition: all .5s ease-in-out;
+transition: .5s;
+-webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+transform: translateX(-98%) translateY(-25%) rotate(45deg);
+
+}
+.btn:hover::after{
+-webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+transform: translateX(-9%) translateY(-25%) rotate(45deg);
+
+}
+
+.poprzeslij{
+display: block ;
+text-align: center;
+}
+
+.napis{
+background-color: #6493EF; 
+color: white;
+margin-top: 1%;
+text-align: center;
+height: 80px;
+font-size: 300%;
+border-radius: 17px 17px 0px 0px;
+}
+.imie{
+margin-top: 40px;
+margin-left: 23%;
+width: 23%;
+float: left;
+margin-right: 1%;
+}
+.nazwisko{
+margin-top: 40px;
+margin-right: 1%;
+width: 43%;
+float: right;
+margin-left: 1%;
+}
+.data{
+margin-top: 40px;
+margin-left: 23%;
+width: 23%;
+float: left;
+margin-right: 1%;
+margin-bottom: 40px;
+}
+.zamieszkanie{
+margin-top: 40px;
+margin-right: 1%;
+width: 43%;
+float: right;
+margin-left: 1%;
+}
+.email{
+margin-top: 40px;
+margin-left: 23%;
+width: 23%;
+margin-right: 1%;
+}
+#hasło{
+margin-right: 1%;
+width: 43%;
+margin-left: 1%;
+float: right;
+margin-top: 0px;
+}
+
+input#wiadomosc{
+width: 70%;
+height: 40px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: auto  auto;
+grid-gap: 10px;
+}
+
+.grid-container > div {
+text-align: center;
+padding: 20px 0;
+}
